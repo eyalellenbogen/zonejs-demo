@@ -1,2 +1,2 @@
-import './complex';
-// import './simple';
+// import './complex';
+import './simple';
