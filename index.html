@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TypeScript with Webpack</title>
+    <style>
+      button {
+        font-size: 24px;
+        padding: 10px 20px;
+        margin-right: 20px;
+        cursor: pointer;
+        background-color: rgb(13, 125, 129);
+        color: #fff;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      button:active{
+          background-color: rgb(24, 111, 114);
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn1">Button1</button>
+    <button id="btn2">Button2</button>
+    <script src="/dist/bundle.js"></script>
+  </body>
+</html>
